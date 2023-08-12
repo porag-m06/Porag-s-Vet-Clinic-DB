@@ -170,12 +170,13 @@ GROUP BY a.name;
 
 
 --Details for most recent visit: animal information, vet information, and date of visit.
-SELECT a.*, vt.*, MAX(v.date_of_visit)
-FROM visits v 
-JOIN animals a 
-ON v.animal_id = a.id 
-JOIN vets vt 
-ON v.vet_id = vt.id;
+SELECT a.name, vt.name, MAX(v.date_of_visit)
+FROM visits v
+JOIN animals a
+ON v.animal_id = a.id
+JOIN vets vt
+ON v.vet_id = vt.id
+GROUP BY a.name, vt.name;
 
 
 --How many visits were with a vet that did not specialize in that animal's species?
