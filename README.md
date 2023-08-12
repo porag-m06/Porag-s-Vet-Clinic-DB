@@ -52,15 +52,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Porag's Vet Clinic Database] <a name="about-project"></a>
+# 📖 Porag's Vet Clinic Database <a name="about-project"></a>
 
-In this **[Vet Clinic Database]** project, a relational database is created with the initial data structure for a vet clinic. To store animals' information and query it.
+In this **Vet Clinic Database** project, a relational database is created with the initial data structure for a vet clinic. To store animals' information and query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
-> PostgreSQL relational database management system is use in this project.
-
+- **PostgreSQL** relational database management system is use in this project.
 
 <details>
 <summary>Database</summary>
@@ -80,8 +79,8 @@ In this **[Vet Clinic Database]** project, a relational database is created with
 
 ### Key Features <a name="key-features"></a>
 
-- **PostgreSQL Installation & Setup**
-- **Create `vet_clinic` Database and `animals` table**
+- **PostgreSQL installation & setup**
+- **Create `vet_clinic` database and `animals` table**
 - **Insert data to the `animals` table**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,7 +90,7 @@ In this **[Vet Clinic Database]** project, a relational database is created with
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-This repository includes files with plain SQL that can be used to recreate the **[Vet Clinic Database]** :
+This repository includes files with plain SQL that can be used to recreate the **Vet Clinic Database** :
 
 - Use [schema.sql](./schema.sql) to `create` all `tables`.
 - Use [data.sql](./data.sql) to populate tables with sample `data`.
@@ -132,7 +131,7 @@ Execute all the query in the following order:
 
 > Developed by: 
 
-### Authors
+### Md. Porag Sarkar
 - GitHub: [@porag-m06](https://github.com/porag-m06)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-porag-nsu-cse/)
