@@ -54,7 +54,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Porag's Vet Clinic Database] <a name="about-project"></a>
 
-In this **[vet Clinic Database]** project, a relational database is created with the initial data structure for a vet clinic. To store animals' information and query it.
+In this **[Vet Clinic Database]** project, a relational database is created with the initial data structure for a vet clinic. To store animals' information and query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
@@ -91,6 +91,14 @@ In this **[vet Clinic Database]** project, a relational database is created with
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+This repository includes files with plain SQL that can be used to recreate the **[Vet Clinic Database]** :
+
+- Use [schema.sql](./schema.sql) to `create` all `tables`.
+- Use [data.sql](./data.sql) to populate tables with sample `data`.
+- Check [queries.sql](./queries.sql) for `examples of queries` that can be `run` on a `newly created database`. 
+
+**Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -98,7 +106,6 @@ In order to run this project you need:
 - **PostgreSQL Installed in your local machine.**
 
 ### Setup
-
 Clone this repository to your desired folder:
 
 Example commands:
