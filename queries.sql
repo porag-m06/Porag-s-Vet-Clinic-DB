@@ -201,3 +201,13 @@ ON v.vet_id = vt.id
 WHERE vt.name = 'Maisy Smith' 
 GROUP BY s.name 
 ORDER BY visit_count DESC LIMIT 1;
+
+--Block 2: Performance Audit
+--Query 01
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits WHERE animal_id = 4;
+
+--Query 02
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+
+--Query 03
+EXPLAIN ANALYZE SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
